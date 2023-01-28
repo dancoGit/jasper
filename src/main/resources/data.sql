@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS main;  
+CREATE TABLE main (  
+	id INT AUTO_INCREMENT  PRIMARY KEY,  
+	name VARCHAR(50) NOT NULL,  
+	age INT(8) NOT NULL  
+);
+
+INSERT INTO main VALUES (1, 'Daniel', 15);    
+INSERT INTO main VALUES (2, 'Carla', 16);    
+INSERT INTO main VALUES (3, 'Alan', 19);
